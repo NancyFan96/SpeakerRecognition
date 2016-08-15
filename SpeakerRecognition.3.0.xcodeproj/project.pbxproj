@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		DB8274591CF35180000D9D72 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB8274581CF35180000D9D72 /* main.cpp */; };
+		DB8274641CF3524F000D9D72 /* kmeans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB8274601CF3524F000D9D72 /* kmeans.cpp */; };
+		DB8274651CF3524F000D9D72 /* mfcc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB8274621CF3524F000D9D72 /* mfcc.cpp */; };
+		DB8274821CF352D8000D9D72 /* backward.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB8274781CF352D8000D9D72 /* backward.cpp */; };
+		DB8274831CF352D8000D9D72 /* baum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB8274791CF352D8000D9D72 /* baum.cpp */; };
+		DB8274841CF352D8000D9D72 /* forward.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB82747A1CF352D8000D9D72 /* forward.cpp */; };
+		DB8274851CF352D8000D9D72 /* hmm-test and train.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB82747B1CF352D8000D9D72 /* hmm-test and train.cpp */; };
+		DB8274861CF352D8000D9D72 /* hmmrand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB82747D1CF352D8000D9D72 /* hmmrand.cpp */; };
+		DB8274871CF352D8000D9D72 /* hmmutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB82747E1CF352D8000D9D72 /* hmmutils.cpp */; };
+		DB8274881CF352D8000D9D72 /* nrutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB82747F1CF352D8000D9D72 /* nrutil.cpp */; };
+		DB8274891CF352D8000D9D72 /* viterbi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB8274811CF352D8000D9D72 /* viterbi.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,20 @@
 /* Begin PBXFileReference section */
 		DB8274551CF35180000D9D72 /* SpeakerRecognition.3.0 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpeakerRecognition.3.0; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8274581CF35180000D9D72 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DB8274601CF3524F000D9D72 /* kmeans.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kmeans.cpp; sourceTree = "<group>"; };
+		DB8274611CF3524F000D9D72 /* kmeans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kmeans.h; sourceTree = "<group>"; };
+		DB8274621CF3524F000D9D72 /* mfcc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mfcc.cpp; sourceTree = "<group>"; };
+		DB8274631CF3524F000D9D72 /* mfcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mfcc.h; sourceTree = "<group>"; };
+		DB8274781CF352D8000D9D72 /* backward.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = backward.cpp; sourceTree = "<group>"; };
+		DB8274791CF352D8000D9D72 /* baum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = baum.cpp; sourceTree = "<group>"; };
+		DB82747A1CF352D8000D9D72 /* forward.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = forward.cpp; sourceTree = "<group>"; };
+		DB82747B1CF352D8000D9D72 /* hmm-test and train.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "hmm-test and train.cpp"; sourceTree = "<group>"; };
+		DB82747C1CF352D8000D9D72 /* hmm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmm.h; sourceTree = "<group>"; };
+		DB82747D1CF352D8000D9D72 /* hmmrand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hmmrand.cpp; sourceTree = "<group>"; };
+		DB82747E1CF352D8000D9D72 /* hmmutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hmmutils.cpp; sourceTree = "<group>"; };
+		DB82747F1CF352D8000D9D72 /* nrutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nrutil.cpp; sourceTree = "<group>"; };
+		DB8274801CF352D8000D9D72 /* nrutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nrutil.h; sourceTree = "<group>"; };
+		DB8274811CF352D8000D9D72 /* viterbi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = viterbi.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +81,20 @@
 		DB8274571CF35180000D9D72 /* SpeakerRecognition.3.0 */ = {
 			isa = PBXGroup;
 			children = (
+				DB8274781CF352D8000D9D72 /* backward.cpp */,
+				DB8274791CF352D8000D9D72 /* baum.cpp */,
+				DB82747A1CF352D8000D9D72 /* forward.cpp */,
+				DB82747B1CF352D8000D9D72 /* hmm-test and train.cpp */,
+				DB82747C1CF352D8000D9D72 /* hmm.h */,
+				DB82747D1CF352D8000D9D72 /* hmmrand.cpp */,
+				DB82747E1CF352D8000D9D72 /* hmmutils.cpp */,
+				DB82747F1CF352D8000D9D72 /* nrutil.cpp */,
+				DB8274801CF352D8000D9D72 /* nrutil.h */,
+				DB8274811CF352D8000D9D72 /* viterbi.cpp */,
+				DB8274601CF3524F000D9D72 /* kmeans.cpp */,
+				DB8274611CF3524F000D9D72 /* kmeans.h */,
+				DB8274621CF3524F000D9D72 /* mfcc.cpp */,
+				DB8274631CF3524F000D9D72 /* mfcc.h */,
 				DB8274581CF35180000D9D72 /* main.cpp */,
 			);
 			path = SpeakerRecognition.3.0;
@@ -118,7 +156,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8274871CF352D8000D9D72 /* hmmutils.cpp in Sources */,
+				DB8274821CF352D8000D9D72 /* backward.cpp in Sources */,
+				DB8274651CF3524F000D9D72 /* mfcc.cpp in Sources */,
+				DB8274641CF3524F000D9D72 /* kmeans.cpp in Sources */,
+				DB8274861CF352D8000D9D72 /* hmmrand.cpp in Sources */,
+				DB8274841CF352D8000D9D72 /* forward.cpp in Sources */,
+				DB8274891CF352D8000D9D72 /* viterbi.cpp in Sources */,
+				DB8274831CF352D8000D9D72 /* baum.cpp in Sources */,
+				DB8274881CF352D8000D9D72 /* nrutil.cpp in Sources */,
 				DB8274591CF35180000D9D72 /* main.cpp in Sources */,
+				DB8274851CF352D8000D9D72 /* hmm-test and train.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +287,7 @@
 				DB82745E1CF35180000D9D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
